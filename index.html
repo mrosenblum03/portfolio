@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matthew Rosenblum - Portfolio Site</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" type="image/jpeg" href="Photos/BnW_HS.jpeg">
+    </head>
+    <body>
+        <header>
+            <h3>MR</h3>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="hero" class="hero">
+            <h1>Matthew Rosenblum</h1>
+            <p>Full-Stack Developer • B.S. Computer Science</p>
+            <button id="view-work">View My Work</button>
+        </section> 
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-description">
+                <img class="about-image" src="Photos/BnW_HS.jpeg" id="about-image" alt="Matthew Rosenblum Black and White Headshot"/>
+                <p>I’m a full-stack software developer with a Bachelor’s degree in Computer Science from the University of New Haven, combining a strong technical foundation with hands-on experience building web applications, VR simulations, and AI-powered tools. My work spans a range of technologies, from front-end frameworks like Vue.js and React to back-end systems using Flask, Node.js, SQL, and NoSQL databases. I’ve led development on several impactful projects, including a web-based VR platform for football film analysis and a mobile app for automating household chores. Professionally, I’ve contributed as a Data Analyst in the financial sector and as a Research Assistant developing educational games. I thrive in Agile environments, enjoy clean, efficient code, and bring strong communication and leadership skills to every team I join. Outside of tech, I’m an avid golfer who values focus, patience, and continuous improvement traits I bring both to the course and to my work as a developer.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png?f=webp&w=256"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png"/>
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"/>
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945040.png?f=webp&w=256"/>
+                <img src="https://static-00.iconduck.com/assets.00/flask-icon-1594x2048-84mjydzf.png"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"/>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Matthew Rosenblum. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/matthew-rosenblum/">LinkedIn</a>
+                <a href="https://github.com/mrosenblum03">GitHub</a>
+            </div>
+        </footer>
+
+    </body>
+</html>
