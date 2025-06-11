@@ -212,7 +212,7 @@ footer {
   border-top: 1px solid #333;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body {
     font-size: 1rem; /* resets base text size for better scaling */
   }
@@ -268,7 +268,7 @@ footer {
 
   .about-description {
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
   }
 
   .skills-list {
