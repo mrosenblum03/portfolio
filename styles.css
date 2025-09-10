@@ -212,6 +212,26 @@ footer {
   border-top: 1px solid #333;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1c1c1c; /* matches card bg */
+  color: #ccc;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333; /* consistent hover style */
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+
+
 @media (max-width: 1000px) {
   body {
     font-size: 1rem; /* resets base text size for better scaling */
